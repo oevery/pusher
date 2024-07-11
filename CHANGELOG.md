@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.4
+
+[compare changes](https://github.com/oevery/pusher/compare/v0.1.3...v0.1.4)
+
+### 🚀 Enhancements
+
+- Add loader to config exports ([1390eca](https://github.com/oevery/pusher/commit/1390eca))
+
+### ❤️ Contributors
+
+- Oevery ([@oevery](http://github.com/oevery))
+
 ## v0.1.3
 
 [compare changes](https://github.com/oevery/pusher/compare/v0.1.2...v0.1.3)
