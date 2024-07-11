@@ -2,7 +2,7 @@
   "name": "@oevery/pusher",
   "type": "module",
   "version": "0.1.2",
-  "packageManager": "pnpm@9.4.0",
+  "packageManager": "pnpm@9.5.0",
   "description": "simple pusher.",
   "author": {
     "name": "oevery",
@@ -45,7 +45,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.22.0-beta.3",
+    "@antfu/eslint-config": "^2.22.0",
     "@types/node": "^20.14.10",
     "@types/ramda": "^0.30.1",
     "eslint": "^9.6.0",
