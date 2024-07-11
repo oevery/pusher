@@ -1,0 +1,65 @@
+{
+  "name": "@oevery/pusher",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@9.4.0",
+  "description": "simple pusher.",
+  "author": {
+    "name": "oevery",
+    "email": "i@oevery.me",
+    "url": "https://github.com/oevery"
+  },
+  "license": "MIT",
+  "repository": "oevery/pusher",
+  "keywords": [
+    "pusher",
+    "push"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "c12": "^1.11.1",
+    "change-case": "^5.4.4",
+    "consola": "^3.2.3",
+    "destr": "^2.0.3",
+    "klona": "^2.0.6",
+    "ofetch": "^1.3.4",
+    "ramda": "^0.30.1",
+    "type-fest": "^4.21.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.22.0-beta.3",
+    "@types/node": "^20.14.10",
+    "@types/ramda": "^0.30.1",
+    "eslint": "^9.6.0",
+    "jiti": "^1.21.6",
+    "lint-staged": "^15.2.7",
+    "simple-git-hooks": "^2.11.1",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3",
+    "unbuild": "^2.0.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
+}
