@@ -31,3 +31,9 @@ telegram.send('this is a test message.')
 3. Add options when create.
 
 **High-priority parameters will override low-priority parameters.**
+
+## Notice
+
+**You must use this project in backend!**
+
+But you can use zod `schema` in browser to validate options input.

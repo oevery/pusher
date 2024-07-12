@@ -2,8 +2,8 @@ import { loadConfig } from 'c12'
 import { klona } from 'klona'
 import type { EnvOptions } from '~/utils/env'
 import { applyEnv } from '~/utils/env'
-import type { TelegramOptions } from '~/provider'
-import { defaultTelegramOptions } from '~/provider'
+import type { TelegramOptions } from '~/types'
+import { defaults } from '~/config/defaults'
 
 export interface PusherConfig {
   telegram: TelegramOptions
@@ -21,9 +21,7 @@ export async function loadPusherConfig(): Promise<PusherConfig> {
     rcFile: false,
     globalRc: false,
     dotenv: true,
-    defaults: {
-      telegram: defaultTelegramOptions as TelegramOptions,
-    },
+    defaults: defaults as PusherConfig,
   })
 
   const config = klona(result.config)
