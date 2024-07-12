@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.2.1
+
+[compare changes](https://github.com/oevery/pusher/compare/v0.2.0...v0.2.1)
+
+### 🏡 Chore
+
+- Update parseMode property name ([dcfedfc](https://github.com/oevery/pusher/commit/dcfedfc))
+
+### ❤️ Contributors
+
+- Oevery ([@oevery](http://github.com/oevery))
+
 ## v0.2.0
 
 [compare changes](https://github.com/oevery/pusher/compare/v0.1.6...v0.2.0)
