@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.6
+
+[compare changes](https://github.com/oevery/pusher/compare/v0.1.5...v0.1.6)
+
+### 🏡 Chore
+
+- Optimize code structure ([4c391d0](https://github.com/oevery/pusher/commit/4c391d0))
+
+### ❤️ Contributors
+
+- Oevery ([@oevery](http://github.com/oevery))
+
 ## v0.1.5
 
 [compare changes](https://github.com/oevery/pusher/compare/v0.1.4...v0.1.5)
