@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.5
+
+[compare changes](https://github.com/oevery/pusher/compare/v0.1.4...v0.1.5)
+
+### 🚀 Enhancements
+
+- Optimize the directory structure export the schema separately ([a04b414](https://github.com/oevery/pusher/commit/a04b414))
+
+### ❤️ Contributors
+
+- Oevery ([@oevery](http://github.com/oevery))
+
 ## v0.1.4
 
 [compare changes](https://github.com/oevery/pusher/compare/v0.1.3...v0.1.4)
