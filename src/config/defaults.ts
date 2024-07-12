@@ -8,7 +8,7 @@ export const defaultTelegramOptions: UndefinedPartialTelegramOptions = {
   token: undefined,
   chatId: undefined,
   threadId: undefined,
-  parse_mode: undefined,
+  parseMode: undefined,
   linkPreviewOptions: {
     isDisabled: undefined,
   },

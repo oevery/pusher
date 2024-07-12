@@ -31,7 +31,7 @@ export interface TelegramOptions {
    * Telegram message parse mode
    * @url https://core.telegram.org/bots/api#formatting-options
    */
-  parse_mode?: 'MarkdownV2' | 'HTML' | 'Markdown'
+  parseMode?: 'MarkdownV2' | 'HTML' | 'Markdown'
   /**
    * Telegram link preview generation options for the message
    * @url https://core.telegram.org/bots/api#linkpreviewoptions

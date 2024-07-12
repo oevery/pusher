@@ -8,7 +8,7 @@ export const telegramSchema: z.ZodType<TelegramOptions> = z.object({
   token: z.string(),
   chatId: z.union([z.string(), z.number()]),
   threadId: z.number().optional(),
-  parse_mode: z.union([z.literal('MarkdownV2'), z.literal('HTML'), z.literal('Markdown')]).optional(),
+  parseMode: z.union([z.literal('MarkdownV2'), z.literal('HTML'), z.literal('Markdown')]).optional(),
   linkPreviewOptions: z.object({
     isDisabled: z.boolean().optional(),
     url: z.string().optional(),
