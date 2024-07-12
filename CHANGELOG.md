@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.2.0
+
+[compare changes](https://github.com/oevery/pusher/compare/v0.1.6...v0.2.0)
+
+### 🏡 Chore
+
+- Update package.json to include types and imports for the provider module ([2eff0e0](https://github.com/oevery/pusher/commit/2eff0e0))
+
+### ❤️ Contributors
+
+- Oevery ([@oevery](http://github.com/oevery))
+
 ## v0.1.6
 
 [compare changes](https://github.com/oevery/pusher/compare/v0.1.5...v0.1.6)
