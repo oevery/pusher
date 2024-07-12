@@ -26,7 +26,7 @@ export interface TelegramOptions {
    * @example
    * 1
    */
-  threadId?: number
+  messageThreadId?: number
   /**
    * Telegram message parse mode
    * @url https://core.telegram.org/bots/api#formatting-options

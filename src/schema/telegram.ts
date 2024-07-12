@@ -7,7 +7,7 @@ import type { TelegramOptions } from '~/types'
 export const telegramSchema: z.ZodType<TelegramOptions> = z.object({
   token: z.string(),
   chatId: z.union([z.string(), z.number()]),
-  threadId: z.number().optional(),
+  messageThreadId: z.number().optional(),
   parseMode: z.union([z.literal('MarkdownV2'), z.literal('HTML'), z.literal('Markdown')]).optional(),
   linkPreviewOptions: z.object({
     isDisabled: z.boolean().optional(),

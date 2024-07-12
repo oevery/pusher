@@ -7,7 +7,7 @@ import type { UndefinedPartialTelegramOptions } from '~/types'
 export const defaultTelegramOptions: UndefinedPartialTelegramOptions = {
   token: undefined,
   chatId: undefined,
-  threadId: undefined,
+  messageThreadId: undefined,
   parseMode: undefined,
   linkPreviewOptions: {
     isDisabled: undefined,
