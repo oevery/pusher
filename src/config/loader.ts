@@ -2,12 +2,8 @@ import { loadConfig } from 'c12'
 import { klona } from 'klona'
 import type { EnvOptions } from '~/utils/env'
 import { applyEnv } from '~/utils/env'
-import type { TelegramOptions } from '~/types'
 import { defaults } from '~/config/defaults'
-
-export interface PusherConfig {
-  telegram: TelegramOptions
-}
+import type { PusherConfig } from '~/types'
 
 const envOptions: EnvOptions = {
   prefix: 'PUSHER_',
