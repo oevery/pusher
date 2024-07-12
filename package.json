@@ -25,6 +25,11 @@
       "types": "./dist/schema/index.d.ts",
       "import": "./dist/schema/index.mjs",
       "require": "./dist/schema/index.cjs"
+    },
+    "./provider": {
+      "types": "./dist/provider/index.d.ts",
+      "import": "./dist/provider/index.mjs",
+      "require": "./dist/provider/index.cjs"
     }
   },
   "main": "./dist/index.cjs",
