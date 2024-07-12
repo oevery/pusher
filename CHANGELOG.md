@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.2.2
+
+[compare changes](https://github.com/oevery/pusher/compare/v0.2.1...v0.2.2)
+
+### 🩹 Fixes
+
+- Update threadId property name to messageThreadId ([74136e3](https://github.com/oevery/pusher/commit/74136e3))
+
+### ❤️ Contributors
+
+- Oevery ([@oevery](http://github.com/oevery))
+
 ## v0.2.1
 
 [compare changes](https://github.com/oevery/pusher/compare/v0.2.0...v0.2.1)
